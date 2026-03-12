@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Voter Card | Citizen Helpdesk</title>
+
+    <style>
+        /* ===== GLOBAL ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: #F0FDFA;
+            color: #1F2937;
+            line-height: 1.6;
+        }
+
+        /* ===== HEADER ===== */
+        header {
+            background-color: #344153;
+            color: white;
+            padding: 22px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 28px;
+        }
+
+        header p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        /* ===== MAIN SECTION ===== */
+        .section {
+            background: white;
+            margin: 25px auto;
+            padding: 25px;
+            width: 90%;
+            max-width: 1000px;
+            border-radius: 10px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        .section h2 {
+            color: #0F766E;
+            margin-bottom: 15px;
+            border-left: 5px solid #16A34A;
+            padding-left: 10px;
+        }
+
+        .section h3 {
+            margin-top: 20px;
+            color: #115E59;
+        }
+
+        /* ===== LISTS ===== */
+        ol {
+            margin-left: 22px;
+            margin-top: 10px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* ===== INFO BOX ===== */
+        .info-box {
+            background: #ECFDF5;
+            border-left: 6px solid #16A34A;
+            padding: 15px;
+            border-radius: 6px;
+            margin-top: 20px;
+            font-weight: 500;
+        }
+
+        .home-return {
+            display: block;
+            font-size: 20px;
+            text-decoration: none;
+            color: white;
+            background-color: #344153;
+            border-radius: 5px;
+            text-align: center;
+            padding: 8px 16px;
+            width: fit-content;
+            margin: 25px auto 0 auto;
+        }
+
+        /* ===== FOOTER ===== */
+        footer {
+            background-color: #344153;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            font-size: 13px;
+            margin-top: 30px;
+        }
+
+        /* ===== MOBILE ===== */
+        @media(max-width:600px) {
+            header h1 {
+                font-size: 22px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Voter Card</h1>
+
+    </header>
+
+    <section class="section">
+
+        <h2>Voter Card</h2>
+        <div>
+            <h3>Table of content</h3>
+            <ul>
+
+                <li style="list-style: square;"><a href="#step1">About</a><br></li>
+                <li style="list-style: square;"><a href="#step2">Eligibility</a><br></li>
+                <li style="list-style: square;"> <a href="#step3">Required Documents</a><br></li>
+                <li style="list-style: square;"><a href="#step4">Application Process</a><br></li>
+                <li style="list-style: square;"><a href="#step5">Where to Apply</a><br></li>
+                <li style="list-style: square;"><a href="#step6">Purpose of the Certificate</a><br></li>
+            </ul>
+        </div>
+        <h3 id="step1">About the document</h3>
+        <p>
+            The Indian Voter Card (officially the Elector's Photo Identity Card (EPIC)) is an identity document issued
+            by the Election Commission of India to Indian citizens who have reached the age of 18. It primarily serves
+            as an identity proof for casting their ballot in the country's municipal, state, and national elections.
+        </p>
+
+        <h3 id="step2">Eligibility</h3>
+        <ol>
+            <li>Must be an Indian citizen</li>
+            <li>Must be 18 years or older</li>
+            <li>Must not be disqualified under any law</li>
+            <li>Must be a resident of the constituency</li>
+            <li></li>
+        </ol>
+
+        <h3 id="step3">Required Documents</h3>
+        <ol>
+            <li>Addhar Card</li>
+            <li>registered Mobile Number with Aadhar Card</li>
+            <li>Proof of Address</li>
+            <li>Birth Certificate</li>
+            <li>Light Bill</li>
+        </ol>
+
+        <h3 id="step4">Application Process</h3>
+        <ol>
+            <li>Register/Login: Visit the Voters' Service Portal. If you don't have an account, click Sign-Up and
+                register using your mobile number and email.</li>
+            <li>Fill Application Form: After logging in, select 'Apply Online for Registration of New Voter' and fill
+                out Form 6 with accurate details.</li>
+            <li>Fill Personal Details: Select your State, District, and Assembly Constituency. Enter your name, date of
+                birth, and relative's details (Father/Mother/Spouse).</li>
+            <li>Upload Documents: Upload scanned copies of your proof of age, address, and a recent passport-sized
+                photograph.</li>
+            <li>Submit Application: Review all details and submit your application. You will receive an application
+                reference number for tracking.</li>
+            <li>Verification: A Booth Level Officer (BLO) may visit your residence for verification. Ensure you are
+                available and provide any additional information if requested.</li>
+            <li>Track Application: Use your reference number on the Voter's Service Portal to track the status of your
+                application.</li>
+            <li>Receive Voter Card: Once approved, your Voter Card will be sent to your registered address via post.
+            </li>
+        </ol>
+
+        <h3 id="step5">Where to Apply:</h3>
+        <ol>
+            <li>Online: <a href="https://voters.eci.gov.in/" target="_blank">Voter's Service Portal</a></li>
+            <li>Offline: Visit your nearest Electoral Office</li>
+        </ol>
+
+        <h3 id="step6">Purpose of the Certificate:</h3>
+        <ol>
+            <li>Identity Proof: Serves as an official identity document for Indian citizens.</li>
+            <li>Voting Rights: Enables citizens to exercise their right to vote in elections.</li>
+            <li>Access to Government Services: Used as a valid ID for various government services and schemes.</li>
+            <li>Address Proof: Acts as proof of residence for various legal and administrative purposes.</li>
+        </ol>
+
+        <br>
+        <a href="index.html" alt="Home page link" class="home-return">→ Back to Home</a>
+    </section>
+
+    <footer>
+        ⚠ This website is for educational and informational purposes only.
+        It is not an official government website.
+    </footer>
+
+</body>
+
+</html>

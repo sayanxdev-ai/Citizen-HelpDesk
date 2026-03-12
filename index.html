@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Citizen HelpDesk | VVMC</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="top-bar">
+    <img src="mah_govt_logo.png" class="logo_img" />
+    <div class="logo">
+      <div class="logo-text">
+        <h1>Citizen<span>HelpDesk</span></h1>
+        <p>Vasai–Virar Municipal Corporation</p>
+      </div>
+    </div>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="contact_us.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>FIND THE DOCUMENT YOU NEED</h2>
+    <p>Cut through the confusion. We show you exactly what papers matter for...</p>
+    <p>No Chase, Just The Essentials</p>
+    <br>
+    <div class="search-container">
+      <input type="search" placeholder="Search for services (e.g. Passport, Aadhaar)..." list="services-list"
+        class="search-data">
+      <datalist id="services-list">
+        <option value="domicile"></option>
+        <option value="Passport"></option>
+        <option value="birth-certificate"></option>
+        <option value="death-certificate"></option>
+        <option value="income-certificate"></option>
+        <option value="senior-citizen"></option>
+        <option value="ews-certificate"></option>
+        <option value="caste-certificate"></option>
+        <option value="non-creamy-layer"></option>
+        <option value="voter-card"></option>
+        <option value="aadhaar-card"></option>
+        <option value="pan-card"></option>
+        <option value="ration-card"></option>
+      </datalist>
+      <button onclick="search()" class="search-btn">Search</button>
+    </div>
+  </section>
+
+  <main class="container" id="services">
+    <a href="domicile.html">
+      <div class="card" id="domicile">
+        <div class="icon">🏠</div>
+        <span>Domicile Certificate</span>
+      </div>
+    </a>
+    <a href="passport.html">
+      <div class="card" id="passport">
+        <div class="icon">🌍</div>
+        <span>Passport</span>
+      </div>
+    </a>
+
+    <a href="birth_certificate.html">
+      <div class="card" id="birth-certificate">
+        <div class="icon">👶</div>
+        <span>Birth Certificate</span>
+      </div>
+    </a>
+    <a href="death_certificate.html">
+      <div class="card" id="death-certificate">
+        <div class="icon">🪦</div>
+        <span>Death Certificate</span>
+      </div>
+    </a>
+    <a href="income_certificate.html">
+      <div class="card" id="income-certificate">
+        <div class="icon">💰</div>
+        <span>Income Certificate</span>
+      </div>
+    </a>
+    <a href="senior_citizen.html">
+      <div class="card" id="senior-citizen">
+        <div class="icon">👴</div>
+        <span>Senior Citizen</span>
+      </div>
+    </a>
+    <a href="ews.html">
+      <div class="card" id="ews-certificate">
+        <div class="icon">📜</div>
+        <span>EWS Certificate</span>
+      </div>
+    </a>
+    <a href="caste_certificate.html">
+      <div class="card" id="caste-certificate">
+        <div class="icon">📃</div>
+        <span>Caste Certificate</span>
+      </div>
+    </a>
+    <a href="non_creamy_layer.html">
+      <div class="card" id="non-creamy">
+        <div class="icon">📝</div>
+        <span>Non-Creamy Layer</span>
+      </div>
+    </a>
+    <a href="voter.html">
+      <div class="card" id="voter">
+        <div class="icon">🗳️</div>
+        <span>Voter Card</span>
+      </div>
+    </a>
+    <a href="aadhar_card.html">
+      <div class="card" id="aadhar-card">
+        <div class="icon">🔐</div>
+        <span>Aadhaar Card</span>
+      </div>
+    </a>
+    <a href="pan_card.html">
+      <div class="card" id="pan-card">
+        <div class="icon">💳</div>
+        <span>PAN Card</span>
+      </div>
+    </a>
+    <a href="ration_card.html">
+      <div class="card" id="ration-card">
+        <div class="icon">🌾</div>
+        <span>Ration Card</span>
+      </div>
+    </a>
+  </main>
+  <footer id="about">
+    <p>© 2026 Citizen HelpDesk | All rights reserved.</p>
+    <p>This is a website for citizens to access various government services.</p>
+    <p>This website provides a platform for citizens to easily access and apply for government services online.</p>
+    <p>This website aims to simplify the process of accessing government services for all citizens.</p>
+    <p>This website is only for information and educational purposes. This is not an official government website.</p>
+    <br>
+    <a href="contact_us.html">Contact Us</a>
+  </footer>
+  <script src="script.js"> </script>
+</body>
+
+</html>

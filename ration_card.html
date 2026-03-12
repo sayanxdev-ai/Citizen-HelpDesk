@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ration Card | Citizen Helpdesk</title>
+
+    <style>
+        /* ===== RESET ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", Arial, sans-serif;
+        }
+
+        /* ===== BODY ===== */
+        body {
+            background: #F0FDFA;
+            color: #1F2937;
+            line-height: 1.7;
+        }
+
+        /* ===== HEADER ===== */
+        header {
+            background-color: #344153;
+            color: white;
+            padding: 32px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 32px;
+        }
+
+        header p {
+            font-size: 15px;
+            opacity: 0.9;
+        }
+
+        /* ===== CONTAINER ===== */
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        /* ===== SECTION TITLE ===== */
+        .section-title {
+            color: #0F766E;
+            border-left: 6px solid #16A34A;
+            padding-left: 12px;
+            margin: 35px 0 15px;
+            font-size: 22px;
+        }
+
+        /* ===== TABLE OF CONTENTS ===== */
+        .toc {
+            background: #ECFDF5;
+            border-left: 6px solid #16A34A;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .toc h2 {
+            color: #0F766E;
+            margin-bottom: 10px;
+        }
+
+        .toc ul {
+            margin-left: 20px;
+        }
+
+        .toc li {
+            margin-bottom: 8px;
+        }
+
+        .toc a {
+            text-decoration: none;
+            color: #115E59;
+            font-weight: 600;
+        }
+
+        .toc a:hover {
+            color: #16A34A;
+            text-decoration: underline;
+        }
+
+        /* ===== LISTS ===== */
+        ul {
+            margin-left: 25px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* ===== INFO BOX ===== */
+        .info-box {
+            background: #ECFDF5;
+            border-left: 6px solid #16A34A;
+            padding: 15px;
+            border-radius: 6px;
+            font-weight: 500;
+        }
+
+        /* ===== APPLY BUTTON ===== */
+        .home-return {
+            display: block;
+            font-size: 20px;
+            text-decoration: none;
+            color: white;
+            background-color: #344153;
+            border-radius: 5px;
+            text-align: center;
+            padding: 8px 16px;
+            width: fit-content;
+            margin: 25px auto 0 auto;
+        }
+
+        /* ===== FOOTER ===== */
+        footer {
+            background-color: #344153;
+            color: white;
+            text-align: center;
+            padding: 14px;
+            font-size: 13px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Ration Card</h1>
+        <p>Citizen Helpdesk – Government Document Information</p>
+    </header>
+
+    <div class="container">
+
+        <!-- TABLE OF CONTENTS -->
+        <div class="toc">
+            <h2>📌 Table of Contents</h2>
+            <ul>
+                <li><a href="#about">About Ration Card</a></li>
+                <li><a href="#eligibility">Eligibility</a></li>
+                <li><a href="#documents">Required Documents</a></li>
+                <li><a href="#process">Application Process</a></li>
+                <li><a href="#fees">Fees</a></li>
+                <li><a href="#time">Processing Time</a></li>
+                <li><a href="#apply">Where to Apply</a></li>
+            </ul>
+        </div>
+
+        <!-- ABOUT -->
+        <div id="about" class="section-title">About Ration Card</div>
+        <p>
+            A Ration Card is an official government document issued by the State Government
+            that enables households to purchase essential commodities at subsidized rates.
+            It also serves as an important identity and address proof.
+        </p>
+
+        <!-- ELIGIBILITY -->
+        <div id="eligibility" class="section-title">Eligibility</div>
+        <ul>
+            <li>Applicant must be an Indian citizen</li>
+            <li>Applicant should be a resident of the state</li>
+            <li>Applicant must not possess another ration card</li>
+        </ul>
+
+        <!-- DOCUMENTS -->
+        <div id="documents" class="section-title">Required Documents</div>
+        <ul>
+            <li>Aadhaar Card of all family members</li>
+            <li>Address Proof (Electricity Bill / Rent Agreement)</li>
+            <li>Income Certificate</li>
+            <li>Passport-size Photograph</li>
+            <li>Cancellation Certificate (if old ration card exists)</li>
+        </ul>
+
+        <!-- PROCESS -->
+        <div id="process" class="section-title">Application Process</div>
+        <ul>
+            <li>Fill the ration card application form</li>
+            <li>Submit required documents</li>
+            <li>Verification by Food & Civil Supplies Department</li>
+            <li>Approval of application</li>
+            <li>Receive Ration Card</li>
+        </ul>
+
+        <!-- FEES -->
+        <div id="fees" class="section-title">Fees</div>
+        <div class="info-box">
+            ₹20 – ₹50 
+        </div>
+
+        <!-- TIME -->
+        <div id="time" class="section-title">Processing Time</div>
+        <div class="info-box">
+            10 – 30 working days
+        </div>
+
+        <!-- APPLY -->
+        <div id="apply" class="section-title">Where to Apply</div>
+        <ul>
+            <li>Online:<a href="https://aaplesarkar.mahaonline.gov.in/en" target="_blank">State Food & Civil Supplies Portal</a></li>
+            <li>Offline: Ration Office / Seva Kendra / CSC</li>
+        </ul>
+
+            <a href="index.html" alt="Home page link" class="home-return">→ Back to Home</a>
+
+    </div>
+
+    <footer>
+        ⚠ This website is for educational and informational purposes only.
+        It is not an official government website.
+    </footer>
+
+</body>
+
+</html>
